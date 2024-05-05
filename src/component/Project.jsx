@@ -12,83 +12,60 @@ import po5 from '../assets/project/project-six.png';
 export const Project = () => {
     const products = [
     {
-      title: "Moonbeam",
-      link: "https://gomoonbeam.com",
+      title: "Nike",
+      link: "https://nikeecomerce.vercel.app/",
       thumbnail:po1,
     },
     {
-      title: "Cursor",
-      link: "https://cursor.so",
+      title: "IETE Design contest",
+      link: "https://fanciful-kitten-2ed1a7.netlify.app/",
       thumbnail:po,
     
     },
     {
-      title: "Rogue",
-      link: "https://userogue.com",
-      
+      title: "Nike",
+      link: "https://nikeecomerce.vercel.app/",
       thumbnail:po1,
     },
    
     {
-      title: "Editorially",
-      link: "https://editorially.org",
+      title: "Old portfolio",
+      link: "https://portfolio-website-gunas-projects-2ae16aeb.vercel.app/",
       thumbnail:po3,
     },
     {
-      title: "Editrix AI",
-      link: "https://editrix.ai",
+      title: "Game based learning",
+      link: "https://learncode-seven.vercel.app/",
       thumbnail:po2,
     },
     {
       title: "Pixel Perfect",
-      link: "https://app.pixelperfect.quest",
+      link: "#",
       thumbnail:po5,
     },
    
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
+      title: "IETE Design contest",
+      link: "https://fanciful-kitten-2ed1a7.netlify.app/",
       thumbnail:po,
     },
     {
-      title: "Rogue",
-      link: "https://userogue.com",
-      
+      title: "Music & Movie",
+      link: "https://songsmoviesmth.vercel.app/",
       thumbnail:po4,
     },
    
     {
-      title: "Editorially",
-      link: "https://editorially.org",
+      title: "Game based learning",
+      link: "https://learncode-seven.vercel.app/",
       thumbnail:po2,
     },
     {
-      title: "Editrix AI",
-      link: "https://editrix.ai",
+      title: "IETE Design contest",
+      link: "https://fanciful-kitten-2ed1a7.netlify.app/",
       thumbnail:po,
     },
-    // {
-    //   title: "Aceternity UI",
-    //   link: "https://ui.aceternity.com",
-    //   thumbnail:po1,
-    // },
-    // {
-    //   title: "Tailwind Master Kit",
-    //   link: "https://tailwindmasterkit.com",
-    //   thumbnail:po1,
-    // },
-    // {
-    //   title: "SmartBridge",
-    //   link: "https://smartbridgetech.com",
-    //   thumbnail:po1,
-    // },
-    // {
-    //   title: "Renderwork Studio",
-    //   link: "https://renderwork.studio",
-    //   thumbnail:po1,
-    // },
-   
-
+ 
   ];
   return (
     

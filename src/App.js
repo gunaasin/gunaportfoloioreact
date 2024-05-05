@@ -1,26 +1,37 @@
+import React from 'react';
 import './App.css';
-import { About } from './component/About';
-import { Contact } from './component/Contact';
-import { Home } from './component/Home';
-import { Navbar } from './component/Navbar';
-import { Project } from './component/Project';
+import { Maxcom } from './component/Maxcom';
+import { Mincom } from './component/Mincom';
 
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      width: window.innerWidth
+    };
+    this.handleResize = this.handleResize.bind(this);
+  }
 
-function App() {
-  return (
-    <div className="App w-screen ">
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize);
+  }
 
-      <div className='flex flex-col justify-center items-center'>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Project/>
-      {/* <About/> */}
-      <Contact/>
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+  }
+
+  handleResize() {
+    this.setState({ width: window.innerWidth });
+  }
+
+  render() {
+    const { width } = this.state;
+    return (
+      <div className="App w-screen ">
+        {width <= 600 ? <Mincom/> : <Maxcom/>  }
       </div>
-     
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
