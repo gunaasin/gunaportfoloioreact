@@ -81,9 +81,7 @@ export const HeroParallax = ({ products }) => {
               key={product.title}   //jh rhr
             />
           ))}
-        </motion.div>
-       
-        
+        </motion.div>////
         
       </motion.div>
     </div>
