@@ -29,7 +29,7 @@ const TextGenerateEffect = ({ words, className }) => {
               {word}{" "}
             </motion.span>
           );
-        })}
+        })} //
       </motion.div>
     );
   };
