@@ -43,7 +43,7 @@ export const HeroParallax = ({ products }) => {
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
+      className="h-[350vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
       <Header />
       <motion.div
@@ -64,7 +64,7 @@ export const HeroParallax = ({ products }) => {
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row mb-20 space-x-20 ">
+        <motion.div className="flex flex-row mb-9 space-x-16 ">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -82,6 +82,16 @@ export const HeroParallax = ({ products }) => {
             />
           ))}
         </motion.div>
+        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-30">
+          {firstRow.map((product) => (
+            <ProductCard
+              product={product}
+              translate={translateX}
+              key={product.title}
+            />
+          ))}
+        </motion.div>
+        
         
       </motion.div>
     </div>
