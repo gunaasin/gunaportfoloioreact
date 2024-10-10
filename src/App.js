@@ -6,6 +6,7 @@ import Lenis from 'lenis'
 
 class App extends React.Component {
   constructor(props) {
+    
     super(props);
     this.state = {
       width: window.innerWidth
