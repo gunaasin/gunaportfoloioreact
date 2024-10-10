@@ -3,6 +3,7 @@ export const Home = () => {
     return (
         <section className="home w-screen h-screen  flex flex-col items-center justify-center text-center" >
             <div id="stars3"></div>
+            <div id="stars3"></div>
             <div className="image md:w-64 md:h-64 max-sm:w-48 max-sm:h-48 mt-12 ">
                 <img className="profile-image md:w-64 md:h-[290px] sm:w-64 sm:h-64 max-sm:w-48 max-sm:h-56" src={img} alt="" />
             </div>

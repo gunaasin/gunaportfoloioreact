@@ -11,7 +11,7 @@ Whether it's breathing life into dynamic websites or orchestrating strategic SEO
 export const About = () => {
   return (
     <div className="flex w-screen items-center justify-center my-40">
-        <p className="md:text-xl sm:text-sm w-3/5 text-center project-textp tracking-wide leading-8 font-poppins" >
+        <p className="md:text-xl sm:text-sm  w-5/6 text-center project-textp tracking-wide leading-8 font-poppins" >
             {/* <span className=" text-6xl ">
                 About &nbsp;
             </span> */}

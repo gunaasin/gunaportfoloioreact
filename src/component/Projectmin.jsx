@@ -55,7 +55,7 @@ export const Projectmin = () => {
                     <img
                         src={product.thumbnail}
                         height="350"
-                        width="370"
+                        width="360"
                         className="rounded-md"
                         alt={product.title}
                     />
