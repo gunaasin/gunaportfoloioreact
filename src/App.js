@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Maxcom } from './component/Maxcom';
 import { Mincom } from './component/Mincom';
+import Lenis from 'lenis'
 
 class App extends React.Component {
   constructor(props) {
@@ -26,9 +27,18 @@ class App extends React.Component {
 
   render() {
     const { width } = this.state;
+
+    const lenis = new Lenis();
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
     return (
       <div className="App w-screen ">
-        {width <= 600 ? <Mincom/> : <Maxcom/>  }
+        {width <= 600 ? <Mincom /> : <Maxcom />}
       </div>
     );
   }
