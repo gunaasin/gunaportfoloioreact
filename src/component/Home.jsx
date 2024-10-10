@@ -7,14 +7,14 @@ export const Home = () => {
                 <img className="profile-image md:w-64 md:h-[290px] sm:w-64 sm:h-64 max-sm:w-48 max-sm:h-56" src={img} alt="" />
             </div>
             <div className="content-text  font-font-poppins">
-                <h2 className=' md:text-4xl sm:text-2xl'>Hi I'm<span className='md:text-5xl max-sm:text-4xl'> GUNA</span></h2>
-                <p className='md:text-xl sm:text-xs w-5/6 '>
-                    I'm a seasoned Web Developer with years of extensive experience.
+                <h2 className=' md:text-4xl sm:text-2xl'>Hi I'm<span className='md:text-5xl max-sm:text-4xl'> GUNA MURUGESAN</span></h2>
+                <p className='md:text-xl sm:text-xs w-screen '>
+                    I'm a seasoned Full-Stack Web Developer.
                 </p>
-                <p className=" md:text-xl sm:text-xs w-5/6">My expertise lies in designing, developing, and more..,</p>
-                <p className='md:text-xl sm:text-xs w-5/6'>to create impactful websites..</p>
+                <p className=" md:text-xl sm:text-xs w-6/12">My expertise lies in designing, developing, and more..,</p>
+                {/* <p className='md:text-xl sm:text-xs w-5/6'>to create impactful websites..</p> */}
             </div>
-            <a href="#end" className=" md:text-xl  sm:text-xs m-4 text-center hover:bg-[rgba(0,0,0,0.94)] px-8 py-2 bg-[#000000] rounded-full text-white font-light transition duration-200 ease-linear">Connect With Me </a>
+            <a href="#end" className=" md:text-xl  sm:text-xs m-4 text-center hover:bg-[rgba(0,0,0,0.94)] px-8 py-2 bg-[#000000] rounded-full text-white font-light transition duration-200 ease-linear">Connect With Me</a>
         </section>
 
     )

@@ -6,9 +6,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-
+  scroll-behavior: smooth;
   background: radial-gradient(ellipse at bottom, #222b38 0%, #000000 100%);
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+::selection{
+  background-color: rgba(150, 151, 156, 0.263);
 }
