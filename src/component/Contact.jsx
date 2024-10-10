@@ -9,7 +9,7 @@ export const Contact = () => {
   return (
     <div className="overflow-hidden"  id="end">
       <div id="stars3"></div>
-      <div className="flex items-center justify-center  h-[40rem] rounded-2xl w-full m-1">
+      <div className="flex items-center justify-center  h-[40rem] rounded-2xl w-screen ">
       <TextRevealCard
         text="guna.asin06@gmail.com"
         // revealText="guna.asin06@gmail.com"

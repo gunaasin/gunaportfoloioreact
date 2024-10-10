@@ -54,8 +54,8 @@ export const Projectmin = () => {
                 <a key={index} href={product.link} className="block my-5 ">
                     <img
                         src={product.thumbnail}
-                        height="320"
-                        width="320"
+                        height="350"
+                        width="370"
                         className="rounded-md"
                         alt={product.title}
                     />
