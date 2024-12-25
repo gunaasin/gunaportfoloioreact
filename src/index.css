@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {   
   margin: 0;
   padding: 0;
@@ -14,5 +15,5 @@ body {
 }
 
 ::selection{
-  background-color: rgba(150, 151, 156, 0.263);
+  background-color: #96979c43;
 }

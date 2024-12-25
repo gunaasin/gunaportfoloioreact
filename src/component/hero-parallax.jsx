@@ -104,7 +104,7 @@ export const Header = () => {
       <h1 className="text-2xl md:text-7xl font-bold project-text">
         The Ultimate <br /> Projects
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 project-textp">
+      <p className="max-w-2xl text-base md:text-xl mt-8 project-textp font-popin">
         Design and developed beautiful products with the latest technologies and frameworks.
       
       </p>

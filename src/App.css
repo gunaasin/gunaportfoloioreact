@@ -39,19 +39,19 @@
 }
 
 
-.content-text span {
+.content-text .constex-span {
   font-weight: 700;
   /* font-size: .5rem; */
   letter-spacing: 8px;
-  font-family: "", sans-serif;
-  background: -webkit-linear-gradient(rgb(255, 255, 255), #000000);
+  /* font-family: "Poppins", serif; */
+  background: -webkit-linear-gradient(#d3d2d2, #12171c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 
 .content-text h2 {
-  background: -webkit-linear-gradient(rgb(255, 255, 255), #0b0d10);
+  background: -webkit-linear-gradient(#d3d2d2, #1c232b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* font-size: 2rem; */
@@ -66,20 +66,34 @@
   /* text-transform: uppercase; */
   letter-spacing: 2px;
   max-width: 700px;
-  background: -webkit-linear-gradient(rgb(255, 255, 255), #1c232b);
+  background: -webkit-linear-gradient(#d3d2d2, #1c232b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .project-text{
-  background: -webkit-linear-gradient( #232d39,#9d9c9c);
+  background: -webkit-linear-gradient( #232d39,#e2e8f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .project-textp{
-  background: -webkit-linear-gradient(rgb(255, 255, 255), #1c232b);
+  background: -webkit-linear-gradient(#ffffff, #1c232b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.project-text-start{
+  background: -webkit-linear-gradient(#3e4956, #d3d2d2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-text-end{
+  background: -webkit-linear-gradient(#d3d2d2, #232d39);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pg-text-span{
+  background-color: #96979c43;
 }
 
 .endofera{
@@ -102,7 +116,12 @@
   border-radius: 55% 45% 55% 45% ;
   overflow: hidden;
   animation: imgFloat 7s ease-in-out infinite;
+  -webkit-box-shadow: 0px 0px 53px -29px rgba(145,145,145,1);
+  -moz-box-shadow: 0px 0px 53px -29px rgba(145,145,145,1);
+  box-shadow: 0px 0px 53px -29px rgba(145,145,145,1);
 }
+
+
 
 .image img {
   /* width: 190px;
@@ -124,5 +143,23 @@
 
   to {
     transform: translateY(-10px);
+  }
+}
+
+/* about-animation */
+
+.autoBlur{
+  animation:blur-animation;
+  animation-timeline: view();
+}
+
+@keyframes blur-animation{
+  0%{
+    filter: blur(40px);
+  }50%,53%{
+    filter: blur(0px);
+  }
+  100%{
+    filter: blur(40px);
   }
 }
