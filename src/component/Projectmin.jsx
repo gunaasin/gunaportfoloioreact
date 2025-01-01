@@ -41,7 +41,7 @@ export const Projectmin = () => {
             thumbnail: po3,
         },
         {
-            title: "Music & Movie",
+            title: "amazon clone",
             link: "https://songsmoviesmth.vercel.app/",
             thumbnail: po4,
         },

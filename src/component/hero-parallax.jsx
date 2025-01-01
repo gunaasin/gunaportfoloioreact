@@ -127,9 +127,9 @@ export const Header = () => {
       <a href={product.link} className="block group-hover/product:shadow-2xl">
         <img
           src={product.thumbnail}
-          height="600"
-          width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
+          // height="600"
+          // width="600"
+          className="object-cover object-left-top absolute  w-fit inset-0 h-fit"
           alt={product.title}
         />
       </a>
