@@ -54,8 +54,8 @@ export const Project = () => {
       thumbnail:po,
     },
     {
-      title: "Music & Movie",
-      link: "https://songsmoviesmth.vercel.app/",
+      title: "amazon-clone",
+      link: "https://amazon-in-tau.vercel.app/",
       thumbnail:po4,
     },
    

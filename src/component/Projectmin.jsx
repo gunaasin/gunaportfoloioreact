@@ -42,7 +42,7 @@ export const Projectmin = () => {
         },
         {
             title: "amazon clone",
-            link: "https://songsmoviesmth.vercel.app/",
+            link: "https://amazon-in-tau.vercel.app/",
             thumbnail: po4,
         },
       
