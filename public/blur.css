@@ -19,14 +19,18 @@
     filter: blur(40px);
   }
 }
-/* 
-@keyframes blur-animation{
-  0%{
-    filter: blur(40px);
-  }50%,53%{
-    filter: blur(0px);
-  }
-  100%{
-    filter: blur(40px);
-  }
-} */
+
+.autoshow{
+  animation: autoshowAnimation both;
+  animation-timeline: view(70% 3%);
+}
+
+@keyframes autoshowAnimation {
+ from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.5);
+ }to{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+ }
+}

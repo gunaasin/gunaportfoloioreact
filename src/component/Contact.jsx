@@ -13,10 +13,10 @@ export const Contact = () => {
         
         <div className="relative z-10 w-full max-w-4xl mx-auto px-4 mb-14">
           <div className="text-center mb-5 ">
-            <h1 className="text-4xl md:text-5xl font-bold font-bely text-[#c16fff] mb-4 tracking-tight">
+            <h1 className="text-4xl md:text-5xl font-bold font-bely text-[#9A62C6] mb-4 tracking-tight">
                Networks
             </h1>
-            <p className="text-gray-400 max-w-xl mx-auto text-lg">
+            <p className="text-gray-400 max-w-xl mx-auto font-Satoshi text-lg">
               Connect with me through these professional platforms for collaboration and communication.
             </p>
           </div>
@@ -60,7 +60,7 @@ export const Contact = () => {
                     <item.icon className={`w-7 h-7 text-white transition-colors duration-300 ${item.hoverColor}`} />
                   </div>
                   <h3 className="text-white text-xl font-semibold mb-2">{item.name}</h3>
-                  <p className="text-gray-400">{item.description}</p>
+                  <p className="text-gray-400 font-Satoshi">{item.description}</p>
                   <div className="mt-4 h-[1px] w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
                 </div>
               </a>
@@ -69,7 +69,7 @@ export const Contact = () => {
         </div>
 
         <div className="h-10 w-screen text-center z-30 absolute bottom-0" >
-          <p className="text-gray-500">@ Guna Murugesan / 2025</p>
+          <p className="text-gray-500 font-Satoshi">@ Guna Murugesan / 2025</p>
         </div>
       </div>
     );
