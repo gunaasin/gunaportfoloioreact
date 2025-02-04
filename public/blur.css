@@ -10,7 +10,7 @@
     -webkit-filter: blur(40px);
     filter: blur(40px);
   }
-  49% , 50% {
+  30% , 70% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
   }

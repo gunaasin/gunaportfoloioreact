@@ -21,7 +21,10 @@ module.exports = {
         },
       },
       fontFamily: {
-        'tsan': ['Noto Serif', 'serif'], // Extend font families
+        'tsan': ['Noto Serif', 'serif'],
+         bely: ['Bely Display', 'sans-serif'], 
+         Satoshi: ['Satoshi Display', 'sans-serif'], 
+          // Extend font families
       },
     },
   },

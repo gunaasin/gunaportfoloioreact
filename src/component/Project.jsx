@@ -55,7 +55,7 @@ export const Project = () => {
     },
     {
       title: "amazon-clone",
-      link: "https://amazon-in-tau.vercel.app/",
+      link: "https://amazon-cyan-mu.vercel.app/",
       thumbnail:po4,
     },
    

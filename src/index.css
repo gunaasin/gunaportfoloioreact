@@ -3,12 +3,32 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: 'Bely Display';
+  src: url('/public/font/Bely-Display.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi Display';
+  src: url('/public/font/Satoshi-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {   
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background: radial-gradient(ellipse at bottom, #222b38 0%, #000000 100%);
+  background: radial-gradient(ellipse at bottom, #0a0c0f 0%, #000000 100%);
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -16,4 +36,63 @@ body {
 
 ::selection{
   background-color: #96979c43;
+}
+
+.autoshow{
+  animation: autoshowAnimation both;
+  animation-timeline: view(70% 3%);
+}
+
+@keyframes autoshowAnimation {
+ from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.5);
+ }to{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+ }
+}
+
+
+@keyframes subtle-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes subtle-glow {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-subtle-float {
+  animation: subtle-float 4s ease-in-out infinite;
+}
+
+.animate-subtle-glow {
+  animation: subtle-glow 3s ease-in-out infinite;
+}
+
+.glass-morphism {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(10px); 
+   -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bg-grid {
+  background-image: linear-gradient(rgba(59, 59, 59, 0.82) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
 }

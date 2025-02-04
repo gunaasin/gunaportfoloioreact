@@ -10,9 +10,19 @@ import po6 from '../assets/project/project-seven.png';
 export const Projectmin = () => {
     const products = [
         {
+            title: "amazon clone",
+            link: "https://amazon-cyan-mu.vercel.app/",
+            thumbnail: po4,
+        },
+        {
             title: "IETE Design contest",
             link: "https://fanciful-kitten-2ed1a7.netlify.app/",
             thumbnail: po,
+        },
+        {
+            title: "Pixel Perfect",
+            link: "#",
+            thumbnail: po5,
         },
         {
             title: "Watch-e-Commerce",
@@ -30,34 +40,26 @@ export const Projectmin = () => {
             thumbnail: po2,
         },
    
-        {
-            title: "Pixel Perfect",
-            link: "#",
-            thumbnail: po5,
-        },
+       
         {
             title: "Old portfolio",
             link: "https://portfolio-website-gunas-projects-2ae16aeb.vercel.app/",
             thumbnail: po3,
         },
-        {
-            title: "amazon clone",
-            link: "https://amazon-in-tau.vercel.app/",
-            thumbnail: po4,
-        },
-      
+        
     ];
 
     return (
         <div className='w-screen flex justify-center items-center flex-col'>
             {products.map((product, index) => (
-                <a key={index} href={product.link} className="block my-5 ">
+                <a key={index} href={product.link} className="autoshow block my-5 ">
                     <img
                         src={product.thumbnail}
                         height="350"
                         width="360"
-                        className="rounded-md"
+                        className="rounded-md "
                         alt={product.title}
+                        
                     />
                     <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
                         {product.title}
