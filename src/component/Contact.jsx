@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import { Linkedin, Github, Mail, CircleDot } from 'lucide-react';
+import { Linkedin, Github, Mail } from 'lucide-react';
 export const Contact = () => {
     return (
       <div className="min-h-screen  w-screen overflow-hidden relative flex flex-col items-center justify-center">
         {/* Background Grid */}
-        {/* <div className="absolute inset-0 bg-grid opacity-30" /> */}
+        <div className="absolute inset-0 bg-grid opacity-30" />
         
         {/* Accent Circles */}
         <div className="absolute top-30 left-0 w-[500px] h-[400px] bg-[#c16fff]/10 rounded-full blur-[100px]" />
