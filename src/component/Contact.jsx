@@ -69,7 +69,7 @@ export const Contact = () => {
         </div>
 
         <div className="h-10 w-screen text-center z-30 absolute bottom-0" >
-          <p className="text-gray-500 font-Satoshi">@ Guna Murugesan / 2025</p>
+          <p className="text-gray-500 font-Satoshi">© Guna Murugesan -2025</p>
         </div>
       </div>
     );

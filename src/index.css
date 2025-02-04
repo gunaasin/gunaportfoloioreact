@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: 'Bely Display';
   src: url('/public/font/Bely-Display.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Satoshi Display';
   src: url('/public/font/Satoshi-Regular.otf') format('truetype');

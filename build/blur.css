@@ -4,7 +4,6 @@
   animation-timeline: view();
 }
 
-
 @keyframes blur-animation {
   0% {
     -webkit-filter: blur(40px);
