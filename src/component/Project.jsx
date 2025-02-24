@@ -12,9 +12,9 @@ import po6 from '../assets/project/project-seven.png';
 export const Project = () => {
     const products = [
     {
-      title: "Nike",
-      link: "https://nikeecomerce.vercel.app/",
-      thumbnail:po1,
+      title: "Yum Zoom",
+      link: "https://yumzoom.vercel.app/",
+      thumbnail:po5,
     },
     {
       title: "IETE Design contest",
@@ -23,9 +23,9 @@ export const Project = () => {
     
     },
     {
-      title: "Nike",
-      link: "https://nikeecomerce.vercel.app/",
-      thumbnail:po1,
+      title: "Yum Zoom",
+      link: "https://yumzoom.vercel.app/",
+      thumbnail:po5,
     },
     {
       title: "Watch-e-Commerce",
@@ -43,9 +43,9 @@ export const Project = () => {
       thumbnail:po3,
     },
     {
-      title: "Pixel Perfect",
-      link: "#",
-      thumbnail:po5,
+      title: "Nike",
+      link: "https://nikeecomerce.vercel.app/",
+      thumbnail:po1,
     },
    
     {

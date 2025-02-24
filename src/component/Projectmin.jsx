@@ -15,14 +15,14 @@ export const Projectmin = () => {
             thumbnail: po4,
         },
         {
-            title: "IETE Design contest",
-            link: "https://fanciful-kitten-2ed1a7.netlify.app/",
-            thumbnail: po,
+            title: "Yum Zoom",
+            link: "https://yumzoom.vercel.app/",
+            thumbnail: po5,
         },
         {
-            title: "Pixel Perfect",
-            link: "#",
-            thumbnail: po5,
+            title: "Game based learning",
+            link: "https://learncode-seven.vercel.app/",
+            thumbnail: po2,
         },
         {
             title: "Watch-e-Commerce",
@@ -30,22 +30,20 @@ export const Projectmin = () => {
             thumbnail: po6,
         },
         {
-            title: "Nike",
-            link: "https://nikeecomerce.vercel.app/",
-            thumbnail: po1,
+            title: "IETE Design contest",
+            link: "https://fanciful-kitten-2ed1a7.netlify.app/",
+            thumbnail: po,
         },
-        {
-            title: "Game based learning",
-            link: "https://learncode-seven.vercel.app/",
-            thumbnail: po2,
-        },
-   
-       
         {
             title: "Old portfolio",
             link: "https://portfolio-website-gunas-projects-2ae16aeb.vercel.app/",
             thumbnail: po3,
         },
+        {
+            title: "Nike",
+            link: "https://nikeecomerce.vercel.app/",
+            thumbnail: po1,
+        }
         
     ];
 
