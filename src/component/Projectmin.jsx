@@ -25,6 +25,11 @@ export const Projectmin = () => {
             thumbnail: po2,
         },
         {
+            title: "Ai Research Assistant",
+            link: "https://airesearchassistant.vercel.app/",
+            thumbnail: po1,
+        },
+        {
             title: "Watch-e-Commerce",
             link: "https://watch-e-commerce-rho.vercel.app/",
             thumbnail: po6,
@@ -38,12 +43,8 @@ export const Projectmin = () => {
             title: "Old portfolio",
             link: "https://portfolio-website-gunas-projects-2ae16aeb.vercel.app/",
             thumbnail: po3,
-        },
-        {
-            title: "Nike",
-            link: "https://nikeecomerce.vercel.app/",
-            thumbnail: po1,
         }
+       
         
     ];
 

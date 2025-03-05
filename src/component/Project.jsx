@@ -17,10 +17,9 @@ export const Project = () => {
       thumbnail:po5,
     },
     {
-      title: "IETE Design contest",
-      link: "https://fanciful-kitten-2ed1a7.netlify.app/",
-      thumbnail:po,
-    
+      title: "Ai Research Assistant",
+      link: "https://airesearchassistant.vercel.app/",
+      thumbnail:po1,
     },
     {
       title: "Yum Zoom",
@@ -43,15 +42,14 @@ export const Project = () => {
       thumbnail:po3,
     },
     {
-      title: "Nike",
-      link: "https://nikeecomerce.vercel.app/",
-      thumbnail:po1,
-    },
-   
-    {
       title: "IETE Design contest",
       link: "https://fanciful-kitten-2ed1a7.netlify.app/",
       thumbnail:po,
+    },
+    {
+      title: "Ai Research Assistant",
+      link: "https://airesearchassistant.vercel.app/",
+      thumbnail:po1,
     },
     {
       title: "amazon-clone",
